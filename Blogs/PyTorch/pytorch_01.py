@@ -1,9 +1,4 @@
 import streamlit as st
-from PIL import Image
-
-
-image_path = "/Users/arthjani/Desktop/AJ Programming/Assets/Images/pytorch_logo.png"
-image = Image.open("/Users/arthjani/Desktop/AJ Programming/Assets/Images/pytorch_logo.png")
 
 
 def pytorch01():
