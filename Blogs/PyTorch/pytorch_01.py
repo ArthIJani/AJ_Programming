@@ -2,7 +2,10 @@ import streamlit as st
 
 
 def pytorch01():
-    st.markdown(""" # PyTorch Fundamentals ![PyTorch Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/PyTorch_logo_icon.svg/45px-PyTorch_logo_icon.svg.png)""")
+    st.title("PyTorch Fundamentals")
+
+    # st.markdown(""" # PyTorch Fundamentals
+    # ![PyTorch Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/PyTorch_logo_icon.svg/45px-PyTorch_logo_icon.svg.png)""")
     st.markdown("""
     PyTorch is an open source machine learning and deep learning framework.
     """)

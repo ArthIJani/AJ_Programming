@@ -1,5 +1,7 @@
 import streamlit as st
 
+from Blogs.blog_list import blog_list
+
 st.set_page_config(
     page_title="Attendance System",
     page_icon=":code:",
@@ -20,7 +22,7 @@ try:
     if selected_page == "Home":
         pass
     elif selected_page == "Blogs":
-        blog()
+        blog_list()
     elif selected_page == "Contact Us":
         pass
     else:
