@@ -1,14 +1,13 @@
 import streamlit as st
 
-from Blogs.blog_list import blog_list
-
 st.set_page_config(
-    page_title="Attendance System",
+    page_title="AJ Programming",
     page_icon=":code:",
     layout="wide"
 )
 
-
+from Blogs.blog_list import blog_list
+from home import home
 from Blogs.blog_main import blog
 from navigation import create_navigation_bar
 
@@ -20,9 +19,9 @@ selected_page = create_navigation_bar()
 
 try:
     if selected_page == "Home":
-        pass
+        home()
     elif selected_page == "Blogs":
-        blog_list()
+        blog()
     elif selected_page == "Contact Us":
         pass
     else:

@@ -2,10 +2,8 @@ import streamlit as st
 import pandas as pd  # Assuming you're using pandas for data manipulation
 
 # Sample data for tables
-data1 = {'col1': [1, 2, 3], 'col2': ['A', 'B', 'C']}
-data2 = {'col3': [4, 5, 6], 'col4': ['D', 'E', 'F']}
+data1 = {'col1': ["Blog 1: KNN From Scratch"]}
 df1 = pd.DataFrame(data1)
-df2 = pd.DataFrame(data2)
 
 
 def table1():
@@ -15,7 +13,7 @@ def table1():
 
 def table2():
     st.subheader("Table 2")
-    st.write(df2)
+    # st.write(df2)
 
 
 def blog_list():
