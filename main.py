@@ -6,13 +6,12 @@ st.set_page_config(
     layout="wide"
 )
 
-from Blogs.blog_list import blog_list
 from home import home
 from Blogs.blog_main import blog
 from navigation import create_navigation_bar
 
-tailwind_cdn = "https://cdn.tailwindcss.com"
-st.write(f'<script src="{tailwind_cdn}">', unsafe_allow_html=True)
+# tailwind_cdn = "https://cdn.tailwindcss.com"
+# st.write(f'<script src="{tailwind_cdn}">', unsafe_allow_html=True)
 
 # Navigation bar
 selected_page = create_navigation_bar()

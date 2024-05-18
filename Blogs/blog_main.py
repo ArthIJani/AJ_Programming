@@ -41,6 +41,3 @@ def blog():
     # Call the function to display the selected blog content
     show_blog(selected_blog)
 
-
-# Call the main blog function to start the app
-blog()
