@@ -10,7 +10,7 @@ def get_blog_titles():
   This function returns a list of titles for all available blogs.
   """
     # Replace with the logic to retrieve blog titles from your file structure
-    blog_titles = ["Blog 1: KNN From Scratch", "Blog 2: Building a Web App with Streamlit"]
+    blog_titles = ["Blog 1: KNN From Scratch", "Blog 2: Pytorch Fundamentals"]
     return blog_titles
 
 
@@ -20,9 +20,8 @@ def show_blog(blog_title):
   """
     if blog_title == "Blog 1: KNN From Scratch":
         knn()
-    elif blog_title == "Blog 2: Building a Web App with Streamlit":
-        st.header("Blog 2: Building a Web App with Streamlit")
-        # Add content for blog 2 here
+    elif blog_title == "Blog 2: Pytorch Fundamentals":
+        pytorch01()
     else:
         st.write("Blog not found.")
 
