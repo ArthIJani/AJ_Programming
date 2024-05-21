@@ -4,31 +4,32 @@ import Blogs.PyTorch.pytorch_01
 
 
 def home():
-    st.title("Welcome to AJ Programming Blogs")
-    st.subheader("Welcome to your one-stop shop for insightful content!")
+    st.markdown("""<h1 style='text-align: center;'>Welcome to AJ Programming Blogs</h1>
+    <p style='text-align: center;'>Welcome to your one-stop shop for insightful content!</p>""",
+                unsafe_allow_html=True)
 
     # Hero image (optional)
     # Replace 'image.jpg' with your actual image path
     # st.image("image.jpg", use_column_width=True)
 
     # Latest blog post section
-    st.header("Latest Post")
-
-    # Replace these placeholders with your actual content
-    latest_title = "**PyTorch Fundamentals**"
-    latest_excerpt = "PyTorch is an open source machine learning and deep learning framework."
-    latest_date = "May 19, 2024"
-
-    # Display information with markdown
-    st.markdown(f"# {latest_title}")
-    st.markdown(f"{latest_excerpt}")
-    st.write(f"**Published:** {latest_date}")
+    # st.header("Latest Post")
+    #
+    # # Replace these placeholders with your actual content
+    # latest_title = "**PyTorch Fundamentals**"
+    # latest_excerpt = "PyTorch is an open source machine learning and deep learning framework."
+    # latest_date = "May 19, 2024"
+    #
+    # # Display information with markdown
+    # st.markdown(f"# {latest_title}")
+    # st.markdown(f"{latest_excerpt}")
+    # st.write(f"**Published:** {latest_date}")
 
     # Button to link to the full post (optional)
     # Replace 'link' with the actual URL of your full post
-    if st.button("Read the Full Post"):
-        # Blogs.PyTorch.pytorch_01.pytorch01()
-        st.write("Blogs")
+    # if st.button("Read the Full Post"):
+    #     # Blogs.PyTorch.pytorch_01.pytorch01()
+    #     st.write("Blogs")
 
     # Blog categories or tags (optional)
     st.header("Explore by Category")
@@ -37,7 +38,7 @@ def home():
     categories = [
         {"name": "Technology", "link": "#"},
         {"name": "Data Science", "link": "#"},
-        {"name": "Life & Style", "link": "#"},
+        {"name": "Life & style", "link": "#"},
     ]
 
     for category in categories:
