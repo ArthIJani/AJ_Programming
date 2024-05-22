@@ -23,6 +23,13 @@ Tensors are a generalization of scalars, vectors, and matrices into higher-dimen
 They are typically grids of numbers called N-way arrays.
  """)
 
+    st.code("""scalar = torch.tensor(7)
+scalar""")
+    st.code("Output : tensor(7)")
+    st.code("""vector = torch.tensor([7,7])
+vector""")
+    st.code("Output : tensor([7, 7])")
+
 
 
 

@@ -14,9 +14,6 @@ from contact_us import display_contact_us
 from style.style import apply_local_css
 
 
-# tailwind_cdn = "https://cdn.tailwindcss.com"
-# st.write(f'<script src="{tailwind_cdn}">', unsafe_allow_html=True)
-
 # Navigation bar
 selected_page = create_navigation_bar()
 
